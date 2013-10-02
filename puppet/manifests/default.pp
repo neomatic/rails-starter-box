@@ -70,7 +70,7 @@ class install-rvm {
     'ruby-1.9.3-p194':
       ensure => 'present',
       default_use => false;
-    'ruby-1.8.7-p370':
+    'ruby-2.0.0-p247':
       ensure => 'present',
       default_use => false;
   }
@@ -79,9 +79,9 @@ class install-rvm {
     'ruby-1.9.3-p194/bundler': ensure => latest;
     'ruby-1.9.3-p194/rails': ensure => latest;
     'ruby-1.9.3-p194/rake': ensure => latest;
-    'ruby-1.8.7-p370/bundler': ensure => latest;
-    'ruby-1.8.7-p370/rails': ensure => latest;
-    'ruby-1.8.7-p370/rake': ensure => latest;
+    'ruby-2.0.0-p247/bundler': ensure => latest;
+    'ruby-2.0.0-p247/rails': ensure => latest;
+    'ruby-2.0.0-p247/rake': ensure => latest;
   }
 
 }
